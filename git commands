@@ -1,0 +1,39 @@
+GIT Notes 
+
+Installing git on linux
+
+On rhel server
+
+yum install curl-devel expat-devel gettext-devel \
+openssl-devel zlib-devel
+
+
+
+debain based 
+
+apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \
+
+libz-dev libssl-dev
+
+
+
+
+
+git config --list
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+git init - Initialize a repo
+git clone - Cloning the existing repository
+git add *.c
+git add README
+git commit -m 'initial project version'
+
+git status check the status of the files
+git add README 
+Ignore files create a file cat.gitignore
+git log
+git checkout -b hotfix
+Git checkout master
+Git merge hot fix 
+Git branch -v 
+Difference between rebase and merge 
